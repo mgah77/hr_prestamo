@@ -23,6 +23,7 @@
             <form>
                 <sheet>
                     <group>
+                        <field name="activo"  invisible="1"/> 
                         <field name="nombre"  attrs="{'readonly': [('activo', '=', True)]}"/>  
                         <field name="monto"  attrs="{'readonly': [('activo', '=', True)]}"/>
                         <field name="nro_cuotas"  attrs="{'readonly': [('activo', '=', True)]}"/>
