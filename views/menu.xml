@@ -1,0 +1,27 @@
+
+<odoo>
+
+
+<act_window
+  id="hr_prestamo_action"
+  name="Ingreso Prestamos"
+  res_model="hr.prestamo"
+  view_mode="tree,form"/>
+
+
+  <menuitem
+  id="hr_prestamo_menu"
+  name="Ingreso Prestamos"
+  parent="hr_prestamo_root"
+  sequence="25"
+  groups="parches.group_hr"
+  action="hr_prestamo_action" />
+
+<menuitem
+  id="hr_prestamo_root"
+  name="Prestamos"
+  parent=""
+  sequence="45"
+  groups="parches.group_hr" />
+
+</odoo>
