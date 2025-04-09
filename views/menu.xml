@@ -1,7 +1,6 @@
 
 <odoo>
 
-
 <act_window
   id="hr_prestamo_action"
   name="Ingreso Prestamos"
@@ -22,6 +21,5 @@
   sequence="25"
   groups="parches.group_hr"
   action="hr_prestamo_action" />
-
 
 </odoo>
