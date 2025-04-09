@@ -23,11 +23,11 @@
             <form>
                 <sheet>
                     <group>
-                        <field name="nombre"/>  
-                        <field name="monto"/>
-                        <field name="nro_cuotas"/>
+                        <field name="nombre"  attrs="{'readonly': [('activo', '=', True)]}"/>  
+                        <field name="monto"  attrs="{'readonly': [('activo', '=', True)]}"/>
+                        <field name="nro_cuotas"  attrs="{'readonly': [('activo', '=', True)]}"/>
                         <field name="cuota"/>
-                        <field name="fecha"/> 
+                        <field name="fecha"  attrs="{'readonly': [('activo', '=', True)]}"/> 
                     </group>
                 </sheet>
             </form>
