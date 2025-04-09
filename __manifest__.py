@@ -7,8 +7,8 @@
 'license': "AGPL-3",
 'application': "True",
 'version': "2.0",
-'data': ['security/groups.xml',
-         'security/ir.model.access.csv',     
+'data': ['security/ir.model.access.csv',     
+         'views/menu.xml',
          'views/prestamo.xml',
         
 ],
