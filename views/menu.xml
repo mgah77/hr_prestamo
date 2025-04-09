@@ -8,6 +8,12 @@
   res_model="hr.prestamo"
   view_mode="tree,form"/>
 
+<menuitem
+  id="hr_prestamo_root"
+  name="Prestamos"
+  parent=""
+  sequence="45"
+  groups="parches.group_hr" />
 
   <menuitem
   id="hr_prestamo_menu"
@@ -17,11 +23,5 @@
   groups="parches.group_hr"
   action="hr_prestamo_action" />
 
-<menuitem
-  id="hr_prestamo_root"
-  name="Prestamos"
-  parent=""
-  sequence="45"
-  groups="parches.group_hr" />
 
 </odoo>
